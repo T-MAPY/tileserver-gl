@@ -5,4 +5,4 @@ sleep 1
 export DISPLAY=:99.0
 
 cd ./data
-node . -p 80 "$@"
+node ../ -p 80 "$@"
